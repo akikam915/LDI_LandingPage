@@ -1,0 +1,820 @@
+.logo-circle {
+    background-color: white;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    box-shadow: 0 0 4px rgba(0, 0, 0, 0.1);
+    height: 50px;
+    width: 50px;
+    padding: 2px;
+}
+
+.logo-circle img {
+    height: 105%;
+    width: 105%;
+    object-fit: contain;
+}
+
+/* .navbar {
+    padding-top: 0.3rem;
+    padding-bottom: 0.3rem;
+} */
+
+/* navlinkssssss */
+
+.nav-custom {
+    transition: all 0.2s ease-in-out;
+    border-bottom: 2px solid transparent;
+    padding: 0.2rem 0.5rem;
+    border-radius: 6px;
+    color: black !important;
+    background-color: transparent;
+    font-size: 1rem;
+}
+
+.nav-custom:hover {
+    box-shadow: 0 4px 12px rgba(218, 212, 188, 0.3);
+    background-color: #343b40;
+    color: white !important;
+}
+
+.nav-custom.active,
+.nav-custom:hover {
+    background-color: #343a40;
+    color: white !important;
+    border-radius: 5px;
+}
+/* hover effect sa see map */
+.custom-hover-yellow:hover {
+    background-color: #ffc107 !important; /* Bootstrap yellow */
+    color: black !important;
+    border-color: #ffc107 !important;
+}
+
+.custom-hover-yellow:hover i {
+    color: black !important;
+}
+/* qrcode hover */
+.qr-button {
+    cursor: pointer;
+    transition: all 0.2s ease;
+    border-radius: 5px;
+    box-shadow: 0 0 0 rgba(255, 255, 0, 0); /* Initial no glow */
+}
+
+.qr-button:hover {
+    box-shadow: 0 0 8px 1px rgba(255, 255, 1, 0.7); /* Yellow glow */
+    transform: scale(1.04); /* Slight zoom on hover */
+}
+
+.qr-button:active {
+    transform: scale(0.9); /* Press down effect */
+    box-shadow: 0 0 5px 2px rgba(255, 255, 1, 0.5); /* Dimmer glow on press */
+}
+/* stay connected hover */
+
+/* Custom text justification */
+.text-justify-custom {
+    text-align: justify;
+    text-align-last: center; /* Ensures last line stays centered */
+}
+
+/* mao ning icon sa fb,insta,twitter,email */
+
+.social-icon {
+    color: white !important;
+    background-color: rgba(255, 193, 7, 0.1);
+    border-radius: 50%;
+    width: 44px;
+    height: 44px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 18px;
+    text-decoration: none;
+    transition:
+        background-color 0.2s ease,
+        color 0.2s ease;
+    box-sizing: border-box;
+}
+
+/* On hover: solid yellow background, icon color black */
+.social-icon:hover {
+    background-color: #ffc107;
+    color: #000000 !important;
+}
+/* .custom-toggler {
+    position: relative;
+    border: none;
+    background: transparent;
+}
+
+.custom-toggler .custom-close-icon {
+    display: none;
+    font-size: 1.8rem;
+    color: white;
+    position: absolute;
+    top: 0;
+    left: 0.1rem;
+}
+
+/* When menu is open, show X and hide hamburger */
+/* .custom-toggler.custom-open .navbar-toggler-icon {
+    display: none;
+} */
+
+/* .custom-toggler.custom-open .custom-close-icon {
+    display: inline;
+} */
+
+/* Optional CSS for better spacing and visual appeal */
+/* .navbar-toggler {
+    border: none;
+    outline: none;
+} */
+/* Let toggler sit closer to brand by removing extra margin on the right */
+/* .navbar .navbar-toggler {
+    margin-right: auto; */
+/* push toggler close to brand text */
+/* } */
+
+/* Optional: make sure brand container aligns items nicely */
+/* .navbar-brand-container {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+} */
+
+/* Hide the close icon by default */
+/* .toggler-close {
+    display: none;
+    font-size: 1.5rem;
+    /* adjust size if needed */
+/* }
+
+.toggler-open {
+    font-size: 1.5rem;
+} */
+
+/* When active, swap icons */
+/* .navbar-toggler.active .toggler-open {
+    display: none;
+}
+
+.navbar-toggler.active .toggler-close {
+    display: inline;
+} */
+
+.hero-section {
+    position: relative;
+    min-height: 100vh;
+    background-image: url("/images/haguauy.png");
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    /* margin-top: 70px; */ /* Remove this */
+    /* Already pushing content below fixed header */
+    padding-bottom: 2rem;
+    z-index: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.hero-content {
+    position: relative;
+    z-index: 3;
+    background-color: rgba(168, 166, 166, 0.8);
+    padding: 2rem;
+    border-radius: 12px;
+    color: black;
+    margin-bottom: 80px;
+    font-family: Roboto;
+}
+
+.logo-circleldi {
+    background-color: white;
+    border-radius: 50%;
+    padding: 8px;
+    height: 156px;
+    width: 156px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    margin-top: 1.5rem; /* space from hero content */
+    border: 4px solid #343a40;
+    filter: drop-shadow(0 0 15px #ffc107);
+    margin-bottom: 40px;
+}
+
+.logo-circleldi img {
+    height: 150px;
+    width: 150px;
+    object-fit: contain;
+}
+.btn.custom-yellow-btn {
+    background-color: #ffc107 !important;
+    color: black !important;
+    border: none !important;
+    margin-top: 80px;
+    font-weight: 500;
+    font-family: Roboto;
+    border-radius: 9px;
+}
+
+.btn.custom-yellow-btn:hover {
+    background-color: #e0a800 !important;
+    color: black !important;
+}
+
+body {
+    background-color: #f0f0f0 !important;
+}
+
+.img-ceo {
+    width: 110px;
+    height: 110px;
+    object-fit: cover;
+    transition: transform 0.4s ease;
+    border: 2px solid #111111;
+}
+
+.image-hover-wrapper:hover .img-ceo {
+    transform: scale(1.08) rotate(1deg);
+}
+
+.hover-shadow {
+    transition: box-shadow 0.4s ease;
+}
+
+.hover-shadow:hover {
+    box-shadow: 0 12px 28px rgba(10, 31, 68, 0.2);
+}
+
+.card-body {
+    transition: transform 0.3s ease;
+    box-shadow: 0 12px 28px rgba(3, 12, 29, 0.2);
+}
+
+.card:hover .card-body {
+    transform: translateY(-4px);
+}
+
+.btn-orange {
+    background-color: #ff7f50;
+    border: none;
+    transition:
+        background-color 0.3s ease,
+        transform 0.3s ease;
+}
+
+.btn-orange:hover {
+    background-color: #e96b3f;
+    transform: translateY(-2px);
+}
+html {
+    scroll-behavior: smooth;
+}
+.diamond-wrapper {
+    width: 210px;
+    height: 210px;
+    background-color: #fff;
+    transform: rotate(45deg);
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.1);
+    position: relative;
+    transition:
+        transform 0.3s ease,
+        box-shadow 0.3s ease;
+    margin: 2rem; /* Increased margin from 1rem to 1.5rem */
+}
+
+.diamond-wrapper:hover {
+    transform: rotate(45deg) scale(1.05);
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
+}
+
+.diamond-content {
+    transform: rotate(-45deg);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 100%;
+    padding: 1rem;
+    transform: translate(-50%, -50%) rotate(-45deg);
+}
+
+.diamond-icon {
+    font-size: 2.5rem;
+    color: #ffcc00;
+}
+
+@media (max-width: 576px) {
+    .diamond-wrapper {
+        width: 180px;
+        height: 180px;
+    }
+}
+
+.product-section {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 20px;
+    padding: 20px;
+}
+
+.product-card {
+    background: white;
+    border: 1px solid #e2e2e2;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.product-card img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+.product-card h2 {
+    font-size: 1.1rem;
+    margin: 10px 0 5px;
+    color: #333;
+}
+
+.product-card p {
+    font-size: 0.9rem;
+    color: #666;
+}
+
+/* Footer Styles */
+.bg-dark-custom {
+    background-color: #343a40;
+}
+
+.logo {
+    width: 40px;
+    height: auto;
+    background-color: white;
+    border-radius: 50%;
+}
+
+input::placeholder {
+    color: #ccc;
+}
+
+.form-control {
+    border: 1px solid #ccc;
+    color: white;
+}
+
+.form-control:focus {
+    border-color: #ffc107;
+    box-shadow: none;
+}
+/* quick link underline */
+/* Base link style: white text, no underline */
+.quick-link {
+    color: #ffffff;
+    text-decoration: none;
+    position: relative;
+}
+
+/* Yellow underline on hover */
+.quick-link::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: -2px;
+    height: 2px;
+    width: 0;
+    background-color: #ffc107;
+    transition: width 0.3s ease;
+}
+
+.quick-link:hover::after {
+    width: 100%;
+}
+
+.product-img-container {
+    width: 100%;
+    height: 160px;
+    overflow: hidden;
+    background-color: #f8f9fa;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.product-img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-bottom: 1px solid #e0e0e0;
+}
+
+.product-name {
+    font-size: 0.85rem;
+    font-weight: 600;
+    line-height: 1.2;
+    height: 3.6em; /* 3 lines */
+    display: -webkit-box;
+
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: normal;
+    word-break: break-word;
+}
+
+.card {
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    transition: box-shadow 0.3s ease;
+}
+
+.card:hover {
+    box-shadow: 0 6px 16px rgba(0, 0, 0, 0.15);
+}
+input.bg-dark::placeholder {
+    color: #ffffff !important;
+    opacity: 1;
+}
+
+/* Custom popup with elegant border and subtle gradient */
+.swal2-popup.minimal-popup {
+    padding: 1.5rem 1.25rem;
+    font-size: 1rem;
+    width: 100%;
+    max-width: 360px;
+    border-radius: 14px;
+    border: 1px solid #d1d5db; /* soft gray border */
+    background: linear-gradient(to bottom right, #ffffff, #f9f9f9);
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.08);
+    transition: all 0.3s ease-in-out;
+}
+
+/* Title style */
+.swal2-title {
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: #333;
+    margin-bottom: 0.5rem;
+}
+
+/* Message text */
+.swal2-html-container {
+    font-size: 0.95rem;
+    color: #555;
+    margin-bottom: 1.2rem;
+}
+
+/* Buttons layout */
+.swal2-actions {
+    gap: 0.5rem;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+/* Buttons style */
+.swal2-popup .btn-sm {
+    font-size: 0.75rem;
+    padding: 6px 14px;
+    border-radius: 6px;
+    min-width: 90px;
+    transition: background 0.2s ease;
+}
+/* sa do you want this prodcut */
+/* YES button (green) */
+.swal2-popup .btn-success {
+    background-color: #157347; /* darker green on hover */
+    color: #fff;
+    border: 2px solid #157347 !important;
+}
+
+.swal2-popup .btn-success:hover {
+    background-color: transparent;
+    color: #157347;
+    border: 2px solid #157347 !important; /* ✅ Fully define the border */
+}
+
+/* NO button (outline gray) */
+.swal2-popup .btn-outline-secondary {
+    background-color: red;
+    color: #fff;
+    border: 2px solid red !important;
+}
+
+.swal2-popup .btn-outline-secondary:hover {
+    background-color: transparent;
+    color: red;
+    border: 2px solid red;
+    transition:
+        background-color 0.2s ease,
+        color 0.2s ease;
+}
+.custom-confirm-button:focus,
+.custom-cancel-button:focus {
+    outline: none !important;
+}
+
+.swal2-popup .btn-outline-success:focus,
+.swal2-popup .btn-success:focus-visible,
+.swal2-popup .btn-outline-secondary:focus,
+.swal2-popup .btn-outline-secondary:focus-visible {
+    outline: none !important;
+    box-shadow: none !important;
+    /* match your normal border */
+}
+
+/* sa do you want this prodcut */
+
+/* sa submit inquiry button */
+.custom-brown-btn {
+    background-color: #157347 !important;
+    color: white !important;
+    border: 2px solid #157347 !important;
+}
+
+.custom-brown-btn:hover {
+    background-color: transparent !important;
+    color: black !important;
+    border: 2px solid #157347 !important;
+    transition:
+        background-color 0.2s ease,
+        color 0.2s ease;
+}
+
+/* sa submit inquiry button */
+
+.swal2-confirm {
+    background-color: #198754 !important; /* Bootstrap success green */
+    color: #fff !important;
+    border: 1px solid #198754 !important;
+    padding: 0.3rem 1.3rem !important;
+    font-weight: 500;
+    transition: all 0.3s ease;
+}
+
+.swal2-confirm:hover {
+    background-color: transparent !important;
+    color: #198754 !important;
+    border: 2px solid #198754 !important;
+}
+
+/* Confirm button */
+.btn-success {
+    background-color: #2ecc71;
+    color: #fff;
+    border: none !important;
+}
+
+.btn-success:hover {
+    background-color: #27ae60;
+}
+
+/* Cancel button */
+.btn-outline-secondary {
+    background-color: transparent;
+    color: #6c757d;
+}
+
+.btn-outline-secondary:hover {
+    background-color: #f1f1f1;
+    color: #333;
+}
+
+/* Prevent horizontal shift when modal opens/closes */
+
+/* sa upat ka card ubos sa hero */
+.stats-card {
+    border-radius: 16px;
+    padding: 1.5rem;
+    background: linear-gradient(135deg, #2c3e50, #4ca1af);
+    color: white;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+    transition:
+        transform 0.3s ease,
+        box-shadow 0.3s ease;
+}
+
+.stats-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 30px rgba(0, 0, 0, 0.3);
+}
+
+.stats-number {
+    font-size: 28px;
+    font-weight: 700;
+    margin-bottom: 0.3rem;
+    color: #ffffff;
+}
+
+.stats-text {
+    font-size: 12px;
+    color: #e0e0e0;
+    line-height: 1.5;
+}
+/* sa modal ni dapit */
+/* Focus effect on inputs */
+.form-control:focus {
+    border-color: #ffcc00;
+    box-shadow: 0 0 0 0.2rem rgba(255, 204, 0, 0.25);
+}
+
+/* Custom button styling */
+.custom-btn {
+    background-color: #9fa0a3;
+    color: #000;
+    transition: all 0.3s ease;
+    border: 2px solid transparent;
+}
+
+.custom-btn:hover {
+    background-color: #fff;
+    color: #000;
+    border: 2px solid #ffcc00;
+}
+
+form .form-control {
+    border: 0.3px solid rgb(148, 134, 134) !important;
+    box-shadow: none !important;
+}
+/* Styles for only the OK button in error alerts */
+.swal-error-ok-btn {
+    background-color: #dc3545 !important; /* Bootstrap 'danger' red */
+    color: #fff !important;
+    border: 1px solid #dc3545 !important;
+    padding: 0.4rem 1.4rem !important;
+    font-weight: 500;
+    transition: all 0.2s ease;
+}
+
+.swal-error-ok-btn:hover {
+    background-color: transparent !important;
+    color: #dc3545 !important;
+    border: 2px solid #dc3545 !important;
+}
+
+@media (min-width: 992px) {
+    .stay-connected-adjust {
+        position: relative;
+        left: -48px; /* push left */
+    }
+}
+#mission {
+    padding-top: 100px;
+    margin-top: -100px;
+}
+#vision {
+    padding-top: 100px;
+    margin-top: -100px;
+}
+#values {
+    padding-top: 100px;
+    margin-top: -100px;
+}
+/* Force modal on top of AOS animated elements */
+/* image product nga hover */
+.zoom-hover {
+    transition: transform 0.3s ease; /* Smooth transition */
+}
+
+.zoom-hover:hover {
+    transform: scale(1.2); /* Zoom in */
+    cursor: pointer; /* Optional: shows a zoom cursor */
+}
+/* Boost z-index to stack properly */
+.modal.image-zoom-modal {
+    z-index: 1061; /* higher than default 1050 */
+}
+.modal-backdrop.image-zoom-backdrop {
+    z-index: 1060;
+}
+
+.swal-product-img {
+    object-fit: contain;
+    width: 100px;
+    height: 100px;
+    border-radius: 8px;
+
+    background-color: #fff;
+}
+.logo-icons {
+    max-height: 1.2em;
+    height: auto;
+    width: auto;
+    margin-right: 0.4em;
+    vertical-align: middle;
+}
+
+#modal-overlay {
+    position: fixed;
+    inset: 0;
+    background: rgba(0, 0, 0, 0.8);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+    box-sizing: border-box;
+    z-index: 9999;
+}
+
+#consent-modal {
+    background: white;
+    padding: 2rem 2.5rem;
+    border-radius: 12px;
+    max-width: 600px;
+    width: 90vw;
+    max-height: 80vh;
+    overflow-y: auto;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+    color: #222;
+    text-align: justify;
+}
+
+#consent-modal h2 {
+    margin: 0 0 1rem 0;
+    font-weight: 700;
+    font-size: 1.2rem; /* smaller heading */
+    line-height: 1.2;
+    text-align: center; /* keep heading centered */
+}
+
+#consent-modal p {
+    font-size: 0.8rem; /* smaller paragraph text */
+    line-height: 1.5;
+    margin-bottom: 1.5rem;
+    text-align: justify;
+}
+
+#agree-btn {
+    display: block;
+    margin-left: auto; /* pushes button to the right */
+    margin-top: 1rem;
+
+    padding: 10px 15px;
+    font-size: 0.78rem;
+    font-weight: 600;
+    border: none;
+    color: white;
+    background-color: #343a40; /* warm yellow */
+
+    border-radius: 15px;
+    cursor: pointer;
+    user-select: none;
+    transition: all 0.3s ease;
+    box-shadow: 0 2px 6px rgba(204, 204, 204, 0.4);
+}
+
+#agree-btn:hover,
+#agree-btn:focus {
+    background-color: transparent !important; /* darker gold */
+    color: #495057;
+    border: 1px solid #343a40 !important;
+    box-shadow: 0 4px 12px rgba(204, 204, 204, 0.6);
+    transform: translateY(-1px);
+    outline: none;
+}
+
+/* Scrollbar for modal content */
+#consent-modal::-webkit-scrollbar {
+    width: 8px;
+}
+
+#consent-modal::-webkit-scrollbar-thumb {
+    background-color: rgba(0, 123, 255, 0.6);
+    border-radius: 4px;
+}
+/* design sa register link */
+.register-link {
+    background-color: #ffc107 !important; /* yellow background (was on hover) */
+    color: black !important; /* dark gray text */
+    border: 2px solid #343a40 !important;
+    border-radius: 6px !important;
+    transition:
+        background-color 0.3s ease,
+        color 0.3s ease !important;
+    cursor: pointer !important;
+    font-weight: 700 !important;
+    padding: 0.5rem 1rem !important;
+    display: inline-flex !important;
+    align-items: center !important;
+    gap: 0.5rem !important;
+}
+
+.register-link:hover,
+.register-link:focus {
+    background-color: transparent !important; /* used to be default */
+    color: black !important;
+    border: 2px solid #6c757d !important;
+
+    text-decoration: none !important;
+    transform: translateY(-2px);
+}

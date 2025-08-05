@@ -62,7 +62,7 @@
 <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
   
 
-  <!-- Navbar toggle and link click handlers -->
+  <!-- Navbar toggle and link click handlersasdasdsadsa -->
   {{-- <script>
     document.addEventListener("DOMContentLoaded", function () {
       const navbarCollapse = document.querySelector("#navbarSupportedContent");

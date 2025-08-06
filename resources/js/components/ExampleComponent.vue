@@ -1785,6 +1785,25 @@
                 >
                     &copy; {{ currentYear }} Leonardo Distributors, Inc. All
                     rights reserved.
+                    <br />
+                    <span style="font-size: 13px; color: #bbb">
+                        Designed by
+                        <a
+                            href="https://www.linkedin.com/in/shevic-tacatane-9aa167352?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
+                            target="_blank"
+                            style="text-decoration: underline; color: #bbb"
+                        >
+                            <strong>Tacatane, S</strong></a
+                        >
+
+                        <span style="font-size: 13px; color: #bbb"> & </span>
+                        <a
+                            href="https://www.linkedin.com/in/john-mark-sagetarios-61509a379?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
+                            target="_blank"
+                            style="text-decoration: underline; color: #bbb"
+                            ><strong> Sagetarios, JM </strong>
+                        </a>
+                    </span>
                 </div>
             </div>
         </footer>
